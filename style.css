@@ -1,0 +1,208 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Monospace, Helvetica, sans-serif;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    background-color: #e4d5e3;
+}
+
+.img {
+    padding: 10px;
+    margin-left: 250px;
+}
+
+.kolom {
+    margin-top: 20px;
+}
+
+.kolom h1 {
+    color: #16383e; 
+    font-size: 70pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kolom p {
+    color: #E6DDC4;
+    background-color: #2393a9;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 17px;
+    font-size: 12pt;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.image a {
+    font-size: 50px;
+    font-weight: 700;
+    float: left;
+    font-family: Monospace, Helvetica, sans-serif;
+}
+.menu ul li a{
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    top: 0;
+    background: #e2a7ef;
+    font-size: 15pt;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+.saya {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.saya h1 {
+    color:white;
+    text-align: center;
+    width: 40%;
+    border-radius: 4px;
+    background-color: rgb(184, 122, 189);
+    border-radius: 10px;
+}
+
+.saya p {
+    margin-top: 20px;
+    font-size: larger;
+    text-align: justify;
+}
+
+.tentang {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.video {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pengalaman {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.pengalaman h1 {
+    color: white;
+    background-color: rgb(184, 122, 189);
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.tabel {
+    margin-left: 40px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.aku {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.aku h1 {
+    background-color: rgb(184, 122, 189);
+    border-radius: 10px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 20%;
+    border-radius: 4px;
+}
+hr {
+    margin: auto;
+    width: 50px;
+    background-color: rgb(12, 53, 93);
+    height: 5px;
+    border-style: none;
+}
+
+.hubungi {
+    margin: auto;
+}
+
+.tabel tr {
+    background-color: #9a3d9a;
+    color: white;
+}
+
+.tabel td {
+    background-color: #c7b6c8;
+    color: black;
+}
+
+.form {
+    background-color: #c7b6c8;
+    width: 25%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.dark-mode {
+    background-color: #332f2f;
+    color:rgb(193, 131, 196);
+}
+
+.button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e2a7ef;
+    color: white;
+    margin: 50px;
+    margin-top: -2px;
+}
